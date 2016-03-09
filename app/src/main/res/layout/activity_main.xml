@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+            android:id="@+id/vgWithTransition"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageView
+                android:id="@+id/ivThumbnail"
+                android:contentDescription="Video image"
+                android:src="@drawable/thumbnail"
+                android:layout_width="150dp"
+                android:layout_height="75dp"/>
+
+        <TextView
+                android:text="With transition"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/vgWithoutTransition"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageView
+                android:contentDescription="Video image"
+                android:src="@drawable/thumbnail"
+                android:layout_width="150dp"
+                android:layout_height="75dp"/>
+
+        <TextView
+                android:text="Without transition"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>
